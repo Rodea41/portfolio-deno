@@ -229,8 +229,7 @@ function Projects() {
     },
     {
       title: "Work",
-      description:
-        "Examples of work done during my time at USCS",
+      description: "Examples of work done during my time at USCS",
       link: "https://dogr.vercel.app/",
       type: "Personal",
       icon: "material-icon-theme:folder-rules",
