@@ -61,26 +61,26 @@ export default function App({ Component }: PageProps) {
   const socials = [
     {
       name: "GitHub",
-      url: "https://github.com/michael-pfister/deno-portfolio",
+      url: "https://github.com/Rodea41",
       icon: "fa-brands:github",
     },
     {
       name: "Twitter",
-      url: "https://twitter.com/ScaredToCompile",
+      url: "https://twitter.com/",
       icon: "fa-brands:twitter",
     },
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/michael-pascal-pfister",
+      url: "https://www.linkedin.com/",
       icon: "fa-brands:linkedin",
     },
   ];
 
   const credentials = {
-    name: "John Doe",
+    name: "Christopher Rodea",
   };
 
-  const url = "https://opensource-portfolio.deno.dev/";
+  const url = "https://chris-rodea.deno.dev/";
 
   return (
     <html lang="en">
@@ -100,17 +100,17 @@ export default function App({ Component }: PageProps) {
         </main>
         <footer class="mt-auto footer w-auto m-2 p-4 bg-neutral text-neutral-content rounded-lg">
           <aside>
-            <span>MIT licensed with ❤️ by Michael</span>
-            <span>
-              3D Art by{" "}
+            <span>Thanks for viewing!</span>
+            {/* <span>
+              
               <a
                 class="underline"
                 href="https://sketchfab.com/KJLOYH"
                 target="_blank"
               >
-                Valery Kharitonov
+                
               </a>
-            </span>
+            </span> */}
           </aside>
           <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
             {socials.map((social) => (

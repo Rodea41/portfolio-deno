@@ -79,6 +79,12 @@ function Values() {
         "I excel in team environments and communicate effectively with stakeholders.",
       image: "/img/pexels-fauxels-3184418.webp",
     },
+    {
+      title: "Collaboration and Communication",
+      description:
+        "I excel in team environments and communicate effectively with stakeholders.",
+      image: "/img/pexels-fauxels-3184418.webp",
+    },
   ];
 
   return (
@@ -119,16 +125,28 @@ interface Experience {
 function Experience() {
   const experiences: Experience[] = [
     {
-      title: "Full Stack Web Developer",
-      company: "AST Advanced Sales Technologies GmbH",
-      timePeriod: "Sep 2023 - Apr 2024",
-      location: "Vienna, Austria",
+      title: "Business Development Associate",
+      company: "United States Cold Storage",
+      timePeriod: "Apr 2023 - Current",
+      location: "Fresno, California",
     },
     {
-      title: "Junior Web Developer",
-      company: "AST Advanced Sales Technologies GmbH",
-      timePeriod: "Feb 2023 - Sep 2023",
-      location: "Vienna, Austria",
+      title: "Customer Account Supervisor",
+      company: "United States Cold Storage",
+      timePeriod: "May 2022 - Apr 2023",
+      location: "Fresno, California",
+    },
+    {
+      title: "Customer Account Specialist",
+      company: "United States Cold Storage",
+      timePeriod: "Mar 2022 - Apr 2023",
+      location: "Fresno, California",
+    },
+    {
+      title: "Assistant Store Manager",
+      company: "Winco Foods",
+      timePeriod: "Mar 2022 - Apr 2023",
+      location: "Modesto, California",
     },
   ];
 
@@ -200,6 +218,14 @@ function Projects() {
       link: "https://fresh.deno.dev/",
       type: "Open Source",
       icon: "logos:deno",
+    },
+    {
+      title: "Dogr.",
+      description:
+        "Dogr is a web application I developed to hone my skills in Nuxt and Vue.",
+      link: "https://dogr.vercel.app/",
+      type: "Personal",
+      icon: "logos:vue",
     },
     {
       title: "Dogr.",
