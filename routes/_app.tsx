@@ -101,16 +101,6 @@ export default function App({ Component }: PageProps) {
         <footer class="mt-auto footer w-auto m-2 p-4 bg-neutral text-neutral-content rounded-lg">
           <aside>
             <span>Thanks for viewing!</span>
-            {/* <span>
-              
-              <a
-                class="underline"
-                href="https://sketchfab.com/KJLOYH"
-                target="_blank"
-              >
-                
-              </a>
-            </span> */}
           </aside>
           <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
             {socials.map((social) => (

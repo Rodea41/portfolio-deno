@@ -212,28 +212,28 @@ interface Project {
 function Projects() {
   const projects: Project[] = [
     {
-      title: "Denoland Fresh",
+      title: "BD Dashboard",
       description:
         "Fresh is a full stack modern web framework for JavaScript and TypeScript developers.",
-      link: "https://fresh.deno.dev/",
-      type: "Open Source",
-      icon: "logos:deno",
+      link: "https://github.com/Rodea41/Dashboard--ZoomInfo",
+      type: "Personal Project",
+      icon: "fluent-color:location-ripple-24",
     },
     {
-      title: "Dogr.",
+      title: "School.",
       description:
-        "Dogr is a web application I developed to hone my skills in Nuxt and Vue.",
-      link: "https://dogr.vercel.app/",
-      type: "Personal",
-      icon: "logos:vue",
+        "Collection of various projects completed during my time at Fresno State or University of Michigan.",
+      link: "https://github.com/Rodea41/Machine-Learning-Algorithms",
+      type: "Academic",
+      icon: "unjs:db0",
     },
     {
-      title: "Dogr.",
+      title: "Work",
       description:
-        "Dogr is a web application I developed to hone my skills in Nuxt and Vue.",
+        "Examples of work done during my time at USCS",
       link: "https://dogr.vercel.app/",
       type: "Personal",
-      icon: "logos:vue",
+      icon: "material-icon-theme:folder-rules",
     },
   ];
 
