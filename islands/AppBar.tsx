@@ -38,10 +38,10 @@ export default function AppBar() {
         <li>
           <a
             class="btn btn-primary text-base-100"
-            href="/cv.pdf"
+            href="/CR-Resume.pdf"
             download
           >
-            Download CV
+            Download Resume
           </a>
         </li>
         <li>
