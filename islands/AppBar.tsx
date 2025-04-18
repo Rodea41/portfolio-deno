@@ -32,7 +32,7 @@ export default function AppBar() {
           width="none"
           height="none"
         />
-        Portfolio
+        Christopher Rodea
       </a>
       <ul class="flex gap-2">
         <li>

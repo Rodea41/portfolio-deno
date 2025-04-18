@@ -230,8 +230,8 @@ function Projects() {
     {
       title: "Work",
       description: "Examples of work done during my time at USCS",
-      link: "https://dogr.vercel.app/",
-      type: "Personal",
+      link: "https://github.com/Rodea41/CDI_allocation_finder/blob/main/CDI_inventory_reader.py",
+      type: "Career",
       icon: "material-icon-theme:folder-rules",
     },
   ];
