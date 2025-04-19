@@ -29,6 +29,13 @@ loadIcons([
   "logos:mariadb-icon",
   "skill-icons:cassandra-light",
   "skill-icons:docker",
+  "skill-icons:bootstrap",
+  "skill-icons:flask-light",
+  "devicon:plotly",
+  "skill-icons:figma-light",
+  "skill-icons:git",
+  "devicon:azuresqldatabase",
+  "logos:leaflet"
 ]);
 
 function Hero() {
@@ -38,8 +45,8 @@ function Hero() {
         <h1 class="text-4xl font-bold text-primary">
           <TypingAnimation
             strings={[
-              '"Hello, World!"',
-              "I'm a developer.",
+              '"Hi Mai Lor!"',
+              "This is my website.",
             ]}
             autoStart={true}
           />
@@ -80,9 +87,9 @@ function Values() {
       image: "/img/pexels-fauxels-3184418.webp",
     },
     {
-      title: "Collaboration and Communication",
+      title: "Put something here",
       description:
-        "I excel in team environments and communicate effectively with stakeholders.",
+        "Describe something here",
       image: "/img/pexels-fauxels-3184418.webp",
     },
   ];
@@ -274,6 +281,7 @@ function Projects() {
 function Technologies() {
   const technologies = [
     "vscode-icons:file-type-js-official",
+    "skill-icons:python-dark",
     "logos:html-5",
     "logos:css-3",
     "logos:php",
@@ -292,7 +300,15 @@ function Technologies() {
     "logos:postgresql",
     "logos:mariadb-icon",
     "skill-icons:cassandra-light",
-    "skill-icons:docker",
+    "skill-icons:bootstrap",
+    "skill-icons:flask-light",
+    "skill-icons:git",
+    "skill-icons:python-dark",
+    "devicon:plotly",
+    "skill-icons:figma-light",
+    "devicon:azuresqldatabase",
+    "logos:leaflet",
+    
   ];
 
   return (
