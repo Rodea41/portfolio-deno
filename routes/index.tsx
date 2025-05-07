@@ -45,14 +45,15 @@ function Hero() {
         <h1 class="text-4xl font-bold text-primary">
           <TypingAnimation
             strings={[
-              '"Hi Mai Lor!"',
-              "This is my website.",
+              'Hi AshleyRose!',
+              'Hi Lauren!',
+      
             ]}
             autoStart={true}
           />
         </h1>
         <p class="text-xl mt-4">
-          I build web applications and websites using modern technologies.
+          This is my personal portfolio. It is meant to showcase the technologies I've used, my past work experience, and to give more details about who I am.
         </p>
       </div>
       <SpinningModel />
@@ -64,6 +65,12 @@ interface Value {
   title: string;
   description: string;
   image: string;
+  href?: string;
+  label?: string;
+  href2?: string;
+  label2?: string;
+  href3?: string;
+  label3?: string;
 }
 
 function Values() {
@@ -71,19 +78,28 @@ function Values() {
     {
       title: "Passion for Continuous Learning",
       description:
-        "I actively seek out new technologies and stay up-to-date with industry trends.",
+        "",
       image: "/img/pexels-pixabay-159711.webp",
+      href: "/CompTIA A+ Certificate.pdf",
+      label: "CompTIA A+ Certificate (2021)",
+      href2: "https://rodea41.github.io/",
+      label2: "Bitwise - Website (2022)",
+      href3: "/FS_Diploma.pdf",
+      label3: "Fresno State (2023)",
+      href4: "",
+      label4: "University of Michigan (ETA 2026)"
+  
     },
     {
-      title: "User-Centric Approach",
+      title: "User Advocate and Business Value Creator",
       description:
-        "My goal is to create user-friendly applications that solve real-world problems.",
+        "My dual focus is to ensure applications solve real world problems for the user and that they deliver measurable business outcomes that satisfy organizational objectives.",
       image: "/img/pexels-picjumbo-com-55570-196644.webp",
     },
     {
-      title: "Collaboration and Communication",
+      title: "Adaptable Work Style for Any Environment",
       description:
-        "I excel in team environments and communicate effectively with stakeholders.",
+        "I am able to adjust my approach to match project needs. Whether working independently as a contributor or as a leader actively guiding team efforts.",
       image: "/img/pexels-fauxels-3184418.webp",
     },
     {
@@ -113,6 +129,11 @@ function Values() {
             <div class="card-body w-2/3 md:w-auto">
               <h2 class="card-title">{value.title}</h2>
               <p>{value.description}</p>
+              <a href={value.href} target="_blank">{value.label}</a>
+              <a href={value.href2} target="_blank">{value.label2}</a>
+              <a href={value.href3} target="_blank">{value.label3}</a>
+              <a >{value.label4}</a>
+
             </div>
           </div>
         ))}
@@ -221,7 +242,7 @@ function Projects() {
     {
       title: "BD Dashboard",
       description:
-        "Fresh is a full stack modern web framework for JavaScript and TypeScript developers.",
+        "This is the current project I am working on.",
       link: "https://github.com/Rodea41/Dashboard--ZoomInfo",
       type: "Personal Project",
       icon: "fluent-color:location-ripple-24",
