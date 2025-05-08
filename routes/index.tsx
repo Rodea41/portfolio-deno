@@ -85,9 +85,9 @@ function Values() {
       href2: "https://rodea41.github.io/",
       label2: "Bitwise - Website (2022)",
       href3: "/FS_Diploma.pdf",
-      label3: "Fresno State (2023)",
+      label3: "Fresno State (2021 - 2023)",
       href4: "",
-      label4: "University of Michigan (ETA 2026)"
+      label4: "University of Michigan (2024 - 2026)"
   
     },
     {
