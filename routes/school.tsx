@@ -31,46 +31,67 @@ export default function School() {
   return (
     <>
       <Head>
-        <title>404 - Page not found</title>
+        <title>School Projects</title>
       </Head>
-      
-      <div className="carousel carousel-end rounded-box">
-        <div className="carousel-item">
-          <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp" alt="Drink" />
+ 
+      <div className="carousel carousel-center bg-neutral rounded-box max-w-full space-x-4 p-4">
+        
+        <div id="item1" className="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
+            className="rounded-box" />
         </div>
         
-        <div className="carousel-item">
+        
+        <div id="item2" className="carousel-item">
           <img
             src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
-            alt="Drink" />
+            className="rounded-box" />
         </div>
         
-        <div className="carousel-item">
+        
+        <div id="item3"className="carousel-item">
           <img
             src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
-            alt="Drink" />
+            className="rounded-box" />
         </div>
         
-        <div className="carousel-item">
+        
+        <div id="item4" className="carousel-item">
           <img
             src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
-            alt="Drink" />
+            className="rounded-box" />
         </div>
         
-        <div className="carousel-item">
-          <img src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp" alt="Drink" />
+        
+        <div id="item5" className="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
+            className="rounded-box" />
         </div>
         
-        <div className="carousel-item">
-          <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp" alt="Drink" />
+        
+        <div id="item6" className="carousel-item">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
+            className="rounded-box" />
         </div>
         
-        <div className="carousel-item">
+        
+        <div id="item7" className="carousel-item">
           <img
             src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
-            alt="Drink" />
+            className="rounded-box" />
         </div>
       </div>
+
+
+
+      <div className="flex w-full justify-center gap-2 py-2">
+        <a href="#item1" className="btn btn-xs">1</a>
+        <a href="#item7" className="btn btn-xs">2</a>
+      </div>
+
       
       
       <div class="px-4 py-8 mx-auto">
