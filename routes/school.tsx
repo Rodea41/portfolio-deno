@@ -46,7 +46,6 @@ export default function School() {
           </a>
         </div>
         
-  
         <div id="item2" className="carousel-item">
         <a href="https://github.com/Rodea41/Machine-Learning-Algorithms/blob/main/Rodea_Decision_Tree_Random_Forest.ipynb" target="_blank" rel="noopener noreferrer">
             <img
@@ -57,7 +56,6 @@ export default function School() {
           </a>
         </div>
         
-        
         <div id="item3"className="carousel-item">
         <a href="https://github.com/Rodea41/Machine-Learning-Algorithms/blob/main/Rodea_K_Means_Clustering.ipynb" target="_blank" rel="noopener noreferrer">
             <img
@@ -67,8 +65,7 @@ export default function School() {
             />
           </a>
         </div>
-        
-        
+      
         <div id="item4" className="carousel-item">
         <a href="https://github.com/Rodea41/Machine-Learning-Algorithms/blob/main/Rodea_Naive_Bayes.ipynb" target="_blank" rel="noopener noreferrer">
             <img
@@ -79,7 +76,6 @@ export default function School() {
           </a>
         </div>
         
-        
         <div id="item5" className="carousel-item">
         <a href="https://github.com/Rodea41/Machine-Learning-Algorithms/blob/main/Rodea_Nearest_Neighbors.ipynb" target="_blank" rel="noopener noreferrer">
             <img
@@ -89,7 +85,6 @@ export default function School() {
             />
           </a>
         </div>
-        
         
         <div id="item6" className="carousel-item">
         <a href="https://github.com/Rodea41/Machine-Learning-Algorithms/blob/main/Rodea_Principle_Components_Analysis.ipynb" target="_blank" rel="noopener noreferrer">
@@ -112,9 +107,6 @@ export default function School() {
           </a>
         </div>
       </div>
-
-
-
       <div className="flex w-full justify-center gap-2 py-2">
         <a href="#item1" className="btn btn-xs">❮</a>
         <a href="#item7" className="btn btn-xs">❯</a>

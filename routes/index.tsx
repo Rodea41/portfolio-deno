@@ -105,10 +105,15 @@ function Values() {
     
   ];
 
+  
   return (
     <>
+    
       <Wave flip={false} />
       <section class="p-4 flex justify-center items-center gap-4 flex-wrap bg-primary">
+        <h1 class="text-3xl font-bold text-base-100 text-left">
+          About Me
+        </h1>
         {values.map((value, i) => (
           <div
             class={"card md:h-auto md:max-w-64 bg-base-100 flex-row md:flex-col shadow-lg" +
