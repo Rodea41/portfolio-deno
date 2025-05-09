@@ -39,10 +39,10 @@ export default function School() {
         <div id="item1" className="carousel-item">
           <img
             src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
-            className="rounded-box" />
+            className="rounded-box" />   
         </div>
         
-        
+  
         <div id="item2" className="carousel-item">
           <img
             src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
@@ -88,8 +88,8 @@ export default function School() {
 
 
       <div className="flex w-full justify-center gap-2 py-2">
-        <a href="#item1" className="btn btn-xs">1</a>
-        <a href="#item7" className="btn btn-xs">2</a>
+        <a href="#item1" className="btn btn-xs">❮</a>
+        <a href="#item7" className="btn btn-xs">❯</a>
       </div>
 
       
