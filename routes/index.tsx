@@ -102,12 +102,7 @@ function Values() {
         "I am able to adjust my approach to match project needs. Whether working independently as a contributor or as a leader actively guiding team efforts.",
       image: "/img/pexels-fauxels-3184418.webp",
     },
-    {
-      title: "Put something here",
-      description:
-        "Describe something here",
-      image: "/img/pexels-fauxels-3184418.webp",
-    },
+    
   ];
 
   return (
@@ -161,19 +156,19 @@ function Experience() {
     {
       title: "Customer Account Supervisor",
       company: "United States Cold Storage",
-      timePeriod: "May 2022 - Apr 2023",
+      timePeriod: "Feb 2022 - Apr 2023",
       location: "Fresno, California",
     },
     {
       title: "Customer Account Specialist",
       company: "United States Cold Storage",
-      timePeriod: "Mar 2022 - Apr 2023",
+      timePeriod: "Mar 2021 - Feb 2022",
       location: "Fresno, California",
     },
     {
       title: "Assistant Store Manager",
       company: "Winco Foods",
-      timePeriod: "Mar 2022 - Apr 2023",
+      timePeriod: "Mar 2011 - Mar 2021",
       location: "Modesto, California",
     },
   ];
