@@ -76,10 +76,10 @@ interface Value {
 function Values() {
   const values: Value[] = [
     {
-      title: "Passion for Continuous Learning",
+      title: "I'm Always Looking to Learn Something New",
       description:
         "",
-      image: "/img/pexels-pixabay-159711.webp",
+      image: "/img/laptop.webp",
       href: "/CompTIA A+ Certificate.pdf",
       label: "CompTIA A+ Certificate (2021)",
       href2: "https://rodea41.github.io/",
@@ -91,16 +91,16 @@ function Values() {
   
     },
     {
-      title: "User Advocate and Business Value Creator",
+      title: "I Aim To Read a Book Every Month",
       description:
-        "My dual focus is to ensure applications solve real world problems for the user and that they deliver measurable business outcomes that satisfy organizational objectives.",
-      image: "/img/pexels-picjumbo-com-55570-196644.webp",
+        "My current streak is 16 months. I read 26 books in 2024.",
+      image: "/img/books.jpeg",
     },
     {
-      title: "Adaptable Work Style for Any Environment",
+      title: "I Enjoy Musicals",
       description:
-        "I am able to adjust my approach to match project needs. Whether working independently as a contributor or as a leader actively guiding team efforts.",
-      image: "/img/pexels-fauxels-3184418.webp",
+        "Seen: Moulin Rouge, Phantom Of The Opera, Hamilton, Wicked, Les Miserables, Book Of Mormon, Dear Evan Hansen, Mean Girls, Shrek , Six",
+      image: "/img/musicals2.jpeg",
     },
     
   ];
