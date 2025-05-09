@@ -230,6 +230,7 @@ interface Project {
   link: string;
   type: string;
   icon: string;
+  target?: string;
 }
 
 function Projects() {
@@ -241,6 +242,7 @@ function Projects() {
       link: "https://github.com/Rodea41/Dashboard--ZoomInfo",
       type: "Personal Project",
       icon: "fluent-color:location-ripple-24",
+      target: "_blank",
     },
     {
       title: "School.",
@@ -249,6 +251,7 @@ function Projects() {
       link: "/school",
       type: "Academic",
       icon: "unjs:db0",
+      target: "",
     },
     {
       title: "Work",
@@ -256,6 +259,7 @@ function Projects() {
       link: "https://github.com/Rodea41/CDI_allocation_finder/blob/main/CDI_inventory_reader.py",
       type: "Career",
       icon: "material-icon-theme:folder-rules",
+      target: "_blank",
     },
   ];
 
@@ -281,7 +285,7 @@ function Projects() {
               <p>{project.description}</p>
               <a
                 href={project.link}
-                target="_blank"
+                target={project.target}
                 class="btn btn-primary text-base-100"
               >
                 View Project
