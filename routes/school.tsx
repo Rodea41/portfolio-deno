@@ -39,52 +39,77 @@ export default function School() {
         <div id="item1" className="carousel-item">
           <a href="https://github.com/Rodea41/Machine-Learning-Algorithms/blob/main/Rodea_Association_Rules.ipynb" target="_blank" rel="noopener noreferrer">
             <img
-              src="/img/association rule.webp"
-              className="rounded-box w-96 h-96" 
+              src="/img/Association_Rules.png"
+              alt="Association Rules"
+              className="rounded-box" 
             />
           </a>
         </div>
         
   
         <div id="item2" className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
-            className="rounded-box w-96 h-96" />
+        <a href="https://github.com/Rodea41/Machine-Learning-Algorithms/blob/main/Rodea_Decision_Tree_Random_Forest.ipynb" target="_blank" rel="noopener noreferrer">
+            <img
+              src="/img/Decision Tree Analysis.png"
+              alt="Decision Tree Analysis"
+              className="rounded-box" 
+            />
+          </a>
         </div>
         
         
         <div id="item3"className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
-            className="rounded-box w-96 h-96" />
+        <a href="https://github.com/Rodea41/Machine-Learning-Algorithms/blob/main/Rodea_K_Means_Clustering.ipynb" target="_blank" rel="noopener noreferrer">
+            <img
+              src="/img/K-Means Clustering.png"
+              alt="K-Means Clustering"
+              className="rounded-box" 
+            />
+          </a>
         </div>
         
         
         <div id="item4" className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
-            className="rounded-box w-96 h-96" />
+        <a href="https://github.com/Rodea41/Machine-Learning-Algorithms/blob/main/Rodea_Naive_Bayes.ipynb" target="_blank" rel="noopener noreferrer">
+            <img
+              src="/img/Naive Bayes.png"
+              alt="Naive Bayes"
+              className="rounded-box" 
+            />
+          </a>
         </div>
         
         
         <div id="item5" className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
-            className="rounded-box w-96 h-96" />
+        <a href="https://github.com/Rodea41/Machine-Learning-Algorithms/blob/main/Rodea_Nearest_Neighbors.ipynb" target="_blank" rel="noopener noreferrer">
+            <img
+              src="/img/Nearest_Neighbors.png"
+              alt="Nearest Neighbors"
+              className="rounded-box" 
+            />
+          </a>
         </div>
         
         
         <div id="item6" className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
-            className="rounded-box w-96 h-96" />
+        <a href="https://github.com/Rodea41/Machine-Learning-Algorithms/blob/main/Rodea_Principle_Components_Analysis.ipynb" target="_blank" rel="noopener noreferrer">
+            <img
+              src="/img/PCA.png"
+              alt="Principal Components Analysis"
+              className="rounded-box" 
+            />
+          </a>
         </div>
         
         
         <div id="item7" className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
-            className="rounded-box w-96 h-96" />
+        <a href="https://github.com/Rodea41/Machine-Learning-Algorithms/blob/main/Rodea_Regression_Models.ipynb" target="_blank" rel="noopener noreferrer">
+            <img
+              src="/img/Regression Models.png"
+              alt="Regression Models"
+              className="rounded-box" 
+            />
+          </a>
         </div>
       </div>
 
