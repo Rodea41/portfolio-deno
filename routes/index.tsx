@@ -246,7 +246,7 @@ function Projects() {
       title: "School.",
       description:
         "Collection of various projects completed during my time at Fresno State or University of Michigan.",
-      link: "https://github.com/Rodea41/Machine-Learning-Algorithms",
+      link: "/school",
       type: "Academic",
       icon: "unjs:db0",
     },
