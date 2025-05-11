@@ -7,6 +7,7 @@ import * as $_app from "./routes/_app.tsx";
 import * as $api_joke from "./routes/api/joke.ts";
 import * as $api_themes_index from "./routes/api/themes/index.ts";
 import * as $index from "./routes/index.tsx";
+import * as $personal from "./routes/personal.tsx";
 import * as $school from "./routes/school.tsx";
 import * as $work from "./routes/work.tsx";
 import * as $AppBar from "./islands/AppBar.tsx";
@@ -21,6 +22,7 @@ const manifest = {
     "./routes/api/joke.ts": $api_joke,
     "./routes/api/themes/index.ts": $api_themes_index,
     "./routes/index.tsx": $index,
+    "./routes/personal.tsx": $personal,
     "./routes/school.tsx": $school,
     "./routes/work.tsx": $work,
   },

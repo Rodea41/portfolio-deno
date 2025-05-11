@@ -243,7 +243,7 @@ function Projects() {
       title: "BD Dashboard",
       description:
         "This is the current project I am working on.",
-      link: "https://github.com/Rodea41/Dashboard--ZoomInfo",
+      link: "/personal",
       type: "Personal Project",
       icon: "fluent-color:location-ripple-24",
       target: "_blank",
