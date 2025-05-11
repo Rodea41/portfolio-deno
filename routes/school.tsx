@@ -112,6 +112,41 @@ export default function School() {
         <a href="#item7" className="btn btn-xs">❯</a>
       </div>
 
+      <div className="carousel carousel-center flex w-full justify-center rounded-box space-x-4 p-2">
+        
+        <div id="beattrader_1" className="carousel-item">
+          <a href="https://cloud.protopie.io/p/e8bcba115a8ee54b8bd44ee9?ui=true&scaleToFit=true&enableHotspotHints=true&cursorType=touch&mockup=true&bgColor=%23F5F5F5&bgImage=undefined&playSpeed=1" target="_blank" rel="noopener noreferrer">
+            <img
+              src="/img/Association_Rules.png"
+              alt="ProtoPie - Beat Trader Demo"
+              className="rounded-box" 
+            />
+          </a>
+        </div>
+        
+        <div id="beattrader_2" className="carousel-item">
+        <a href="https://drive.google.com/drive/folders/1chOinDQY9qSYBNW3wM_0eHr3RlpvYPC-?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <img
+              src="/img/Decision Tree Analysis.png"
+              alt="Decision Tree Analysis"
+              className="rounded-box" 
+            />
+          </a>
+        </div>
+        
+        <div id="beattader_3"className="carousel-item">
+        <a href="https://github.com/Rodea41/Machine-Learning-Algorithms/blob/main/Rodea_K_Means_Clustering.ipynb" target="_blank" rel="noopener noreferrer">
+            <img
+              src="/img/K-Means Clustering.png"
+              alt="K-Means Clustering"
+              className="rounded-box" 
+            />
+          </a>
+        </div>
+      
+      </div>
+      
+
       
       
       <div class="px-4 py-8 mx-auto">
