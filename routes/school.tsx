@@ -150,17 +150,11 @@ export default function School() {
       
       <div class="px-4 py-8 mx-auto">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
-          <Icon
-            icon="material-symbols-light:school"
-            class="w-16 h-16 text-primary"
-            width="none"
-            height="none"
-          />
           <h1 class="text-4xl font-bold"></h1>
           <p class="my-4">
-            These are all the projects I've done while attending Fresno State and University of Michigan.
+          
           </p>
-          <a href="/" class="underline">Go back home</a>
+          <a href="/" class="underline">Back To Homepage</a>
         </div>
       </div>
     </>
