@@ -150,11 +150,11 @@ export default function School() {
       
       <div class="px-4 py-8 mx-auto">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
-          <h1 class="text-4xl font-bold"></h1>
-          <p class="my-4">
           
-          </p>
-          <a href="/" class="underline">Back To Homepage</a>
+          <h1 class="text-md font-bold text-primary text-center mb-4">
+          <a href="/" class="underline">Homepage</a>
+          </h1>
+
         </div>
       </div>
     </>

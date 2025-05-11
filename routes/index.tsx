@@ -47,7 +47,6 @@ function Hero() {
             strings={[
               'Hi AshleyRose!',
               'Hi Lauren!',
-      
             ]}
             autoStart={true}
           />
@@ -261,7 +260,7 @@ function Projects() {
     {
       title: "Work",
       description: "Examples of work done during my time at USCS",
-      link: "https://github.com/Rodea41/CDI_allocation_finder/blob/main/CDI_inventory_reader.py",
+      link: "/work",
       type: "Career",
       icon: "material-icon-theme:folder-rules",
       target: "_blank",

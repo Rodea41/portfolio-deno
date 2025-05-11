@@ -8,6 +8,7 @@ import * as $api_joke from "./routes/api/joke.ts";
 import * as $api_themes_index from "./routes/api/themes/index.ts";
 import * as $index from "./routes/index.tsx";
 import * as $school from "./routes/school.tsx";
+import * as $work from "./routes/work.tsx";
 import * as $AppBar from "./islands/AppBar.tsx";
 import * as $SpinningModel from "./islands/SpinningModel.tsx";
 import * as $TypingAnimation from "./islands/TypingAnimation.tsx";
@@ -21,6 +22,7 @@ const manifest = {
     "./routes/api/themes/index.ts": $api_themes_index,
     "./routes/index.tsx": $index,
     "./routes/school.tsx": $school,
+    "./routes/work.tsx": $work,
   },
   islands: {
     "./islands/AppBar.tsx": $AppBar,
