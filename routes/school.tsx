@@ -33,7 +33,14 @@ export default function School() {
       <Head>
         <title>School Projects</title>
       </Head>
- 
+
+      <h1 class="text-3xl font-bold text-primary text-center mb-4">
+        <a href="https://github.com/Rodea41/Machine-Learning-Algorithms/blob/main/README.md" target="_blank" rel="noopener noreferrer">
+        Data Science
+
+        </a>
+      </h1>
+
       <div className="carousel carousel-center bg-neutral rounded-box max-w-full space-x-4 p-4">
         
         <div id="item1" className="carousel-item">
@@ -111,6 +118,10 @@ export default function School() {
         <a href="#item1" className="btn btn-xs">❮</a>
         <a href="#item7" className="btn btn-xs">❯</a>
       </div>
+
+      <h1 class="text-3xl font-bold text-primary text-center mb-4">
+        App Development and Documentation
+      </h1>
 
       <div className="carousel carousel-center flex w-full justify-center rounded-box space-x-4 p-2">
         
