@@ -39,7 +39,8 @@ export default function AppBar() {
           <a
             class="btn btn-primary text-base-100"
             href="/CR-Resume.pdf"
-            download
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Download Resume
           </a>
