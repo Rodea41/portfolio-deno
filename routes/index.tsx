@@ -90,10 +90,12 @@ function Values() {
   
     },
     {
-      title: "I Aim To Read a Book Every Month",
+      title: "I Try To Read a Book Every Month",
       description:
-        "My current streak is 16 months. I read 26 books in 2024.",
+        "My current streak is 16 months. I read 26 books in 2024. Currently at 6 books in 2025.",
       image: "/img/books.jpeg",
+      href: "/img/Reading_recap.JPG",
+      label: "2024 Reading Recap",
     },
     {
       title: "I Enjoy Musicals",
