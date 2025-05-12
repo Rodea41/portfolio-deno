@@ -65,11 +65,6 @@ export default function App({ Component }: PageProps) {
       icon: "fa-brands:github",
     },
     {
-      name: "Twitter",
-      url: "https://twitter.com/",
-      icon: "fa-brands:twitter",
-    },
-    {
       name: "LinkedIn",
       url: "https://www.linkedin.com/",
       icon: "fa-brands:linkedin",
