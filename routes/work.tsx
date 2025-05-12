@@ -90,6 +90,24 @@ export default function Work() {
     </div>
   </div>
 
+  <div className="card bg-base-100 shadow-sm">
+    <figure>
+      <img
+        src="img\grocery.webp"
+        alt="Grocery produce" />
+    </figure>
+    <div className="card-body">
+      <h2 className="card-title">WinCo Foods</h2>
+      <p>A few examples of analytics done while working as an ASM at Winco</p>
+      <div className="card-actions justify-end">
+        <a href="https://drive.google.com/drive/folders/1pOXydXHVtnrrzIqJqcfvwFSmA0O6xPvI?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <button className="btn btn-primary">Details</button>
+          </a>
+      </div>
+    </div>
+  </div>
+
+
 </div>
 
 
