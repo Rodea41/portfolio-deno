@@ -10,10 +10,7 @@ export default function Work() {
       </Head>
 
       <h1 class="text-3xl font-bold text-primary text-center mb-4">
-        <a href="" target="_blank" rel="noopener noreferrer">
         Work Projects
-
-        </a>
       </h1>
 
       
