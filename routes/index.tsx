@@ -98,7 +98,7 @@ function Values() {
     {
       title: "I Enjoy Musicals",
       description:
-        "Seen: Moulin Rouge, Phantom Of The Opera, Hamilton, Wicked, Les Miserables, Book Of Mormon, Dear Evan Hansen, Mean Girls, Shrek , Six",
+        "Seen: Moulin Rouge, Phantom Of The Opera, Hamilton, Wicked, Les Miserables, Book Of Mormon, Dear Evan Hansen, Into the woods, Mean Girls, Rent, Shrek , Six",
       image: "/img/musicals2.jpeg",
     },
     
@@ -172,7 +172,7 @@ function Experience() {
     {
       title: "Assistant Store Manager",
       company: "Winco Foods",
-      timePeriod: "Mar 2011 - Mar 2021",
+      timePeriod: "Jun 2011 - Mar 2021",
       location: "Modesto, California",
     },
   ];
