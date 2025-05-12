@@ -107,6 +107,23 @@ export default function Work() {
     </div>
   </div>
 
+  <div className="card bg-base-100 shadow-sm">
+    <figure>
+      <img
+        src="img\Bakersfield.webp"
+        alt="Bakersfield" />
+    </figure>
+    <div className="card-body">
+      <h2 className="card-title">Bakersfield Rate Increase</h2>
+      <p>Sr. Area Director Chad Cox and the Bakersfield Ops team had asked me to meet at their facility to discuss the best way to approach their rate increases for 2025 </p>
+      <div className="card-actions justify-end">
+        <a href="https://drive.google.com/drive/folders/1pOXydXHVtnrrzIqJqcfvwFSmA0O6xPvI?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <button className="btn btn-primary">Details</button>
+          </a>
+      </div>
+    </div>
+  </div>
+
 
 </div>
 
