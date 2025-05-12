@@ -16,123 +16,81 @@ export default function Work() {
         </a>
       </h1>
 
-      <div className="carousel carousel-center bg-neutral rounded-box max-w-full space-x-4 p-4">
-        
-        <div id="work1" className="carousel-item">
-          <a href="https://drive.google.com/drive/folders/1RdUK4HDxMscsxr9J6_ucm4GILZjP_JNr?usp=sharing" target="_blank" rel="noopener noreferrer">
-            <img
-              src="/img/"
-              alt="FreshSales Demo Files - Google Drive"
-              className="rounded-box" 
-            />
-          </a>
-        </div>
-        
-        <div id="work2" className="carousel-item">
-        <a href="https://github.com/Rodea41/CDI_allocation_finder/tree/main" target="_blank" rel="noopener noreferrer">
-            <img
-              src="/img/"
-              alt="CDI Allocation Finder"
-              className="rounded-box" 
-            />
-          </a>
-        </div>
-        
-        <div id="work3"className="carousel-item">
-        <a href="https://" target="_blank" rel="noopener noreferrer">
-            <img
-              src="/img/"
-              alt="Cargill Reader"
-              className="rounded-box" 
-            />
-          </a>
-        </div>
       
-        <div id="work4" className="carousel-item">
-        <a href="https://" target="_blank" rel="noopener noreferrer">
-            <img
-              src="/img/"
-              alt="ZoomInfo"
-              className="rounded-box" 
-            />
-          </a>
-        </div>
-        
-      
-      </div>
-      <div className="flex w-full justify-center gap-2 py-2">
-        <a href="#work1" className="btn btn-xs">❮</a>
-        <a href="#work4" className="btn btn-xs">❯</a>
-      </div>
 
       
 
-  <div className="flex flex-wrap justify-between gap-4">
-    <div className="card bg-base-100 max-w-sm shadow-sm">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    
+    <div className="card bg-base-100 shadow-sm img-full">
       <figure>
         <img
-          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-          alt="Shoes" />
+          src="img\FreshSales2.webp"
+          alt="FreshSales Demo Files - Google Drive" />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">Card Title</h2>
-        <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+        <h2 className="card-title">FreshSales Demo Files</h2>
+        <p>Powerpoint presentation, personal notes, and documents I created while working on the FreshSales Project</p>
         <div className="card-actions justify-end">
-          <button className="btn btn-primary">Buy Now</button>
+          <a href="https://drive.google.com/drive/folders/1RdUK4HDxMscsxr9J6_ucm4GILZjP_JNr?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <button className="btn btn-primary">Details</button>
+          </a>
         </div>
       </div>
     </div>
   
-  <div className="card bg-base-100 max-w-sm shadow-sm">
+  <div className="card bg-base-100 shadow-sm">
     <figure>
       <img
-        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-        alt="Shoes" />
+        src="img\dashboard.webp"
+        alt="analytics icons" />
     </figure>
     <div className="card-body">
-      <h2 className="card-title">Card Title</h2>
-      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+      <h2 className="card-title">ZoomInfo Dashboard</h2>
+      <p>A dashboard I am in the progress of creating that uses contact data pulled from ZoomInfo.</p>
       <div className="card-actions justify-end">
-        <button className="btn btn-primary">Buy Now</button>
+        <a href="https://github.com/Rodea41/Dashboard--ZoomInfo" target="_blank" rel="noopener noreferrer">
+          <button className="btn btn-primary">Details</button>
+          </a>
       </div>
     </div>
   </div>
   
-  <div className="card bg-base-100 max-w-sm shadow-sm">
+  <div className="card bg-base-100 shadow-sm">
     <figure>
       <img
-        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+        src="img\butter.webp"
         alt="Shoes" />
     </figure>
     <div className="card-body">
-      <h2 className="card-title">Card Title</h2>
-      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+      <h2 className="card-title">CDI Allocation Finder</h2>
+      <p>A program I created to automate the process of matching CDI allocation PDF's to inventory data in our WMS. </p>
       <div className="card-actions justify-end">
-        <button className="btn btn-primary">Buy Now</button>
+        <a href="https://github.com/Rodea41/CDI_allocation_finder" target="_blank" rel="noopener noreferrer">
+          <button className="btn btn-primary">Details</button>
+          </a>
       </div>
     </div>
   </div>
 
-  <div className="card bg-base-100 max-w-sm shadow-sm">
+  <div className="card bg-base-100 shadow-sm">
     <figure>
       <img
-        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-        alt="Shoes" />
+        src="img\meat.webp"
+        alt="Meat on cutting board" />
     </figure>
     <div className="card-body">
-      <h2 className="card-title">Card Title</h2>
-      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+      <h2 className="card-title">Cargill PDF Reader</h2>
+      <p>A python program designed to extract structured data from PDF Bills of Lading (BOL) and export it to CSV format.</p>
       <div className="card-actions justify-end">
-        <button className="btn btn-primary">Buy Now</button>
+        <a href="https://github.com/Rodea41/Cargill_bol_parser" target="_blank" rel="noopener noreferrer">
+          <button className="btn btn-primary">Details</button>
+          </a>
       </div>
     </div>
   </div>
 
 </div>
-
-
-
-
 
 
 

@@ -240,16 +240,16 @@ interface Project {
 function Projects() {
   const projects: Project[] = [
     {
-      title: "BD Dashboard",
+      title: "Personal",
       description:
-        "This is the current project I am working on.",
+        "Projects I've created for personal use or to learn new technologies.",
       link: "/personal",
-      type: "Personal Project",
+      type: "",
       icon: "fluent-color:location-ripple-24",
-      target: "_blank",
+      target: "",
     },
     {
-      title: "School.",
+      title: "School",
       description:
         "Collection of various projects completed during my time at Fresno State or University of Michigan.",
       link: "/school",
@@ -263,14 +263,14 @@ function Projects() {
       link: "/work",
       type: "Career",
       icon: "material-icon-theme:folder-rules",
-      target: "_blank",
+      target: "",
     },
   ];
 
   return (
     <section class="p-4 my-8">
       <h1 class="text-3xl font-bold text-primary text-center mb-4">
-        Projects and Contributions
+        Projects
       </h1>
       <div class="flex flex-wrap justify-center items-center gap-2">
         {projects.map((project) => (
@@ -292,7 +292,7 @@ function Projects() {
                 target={project.target}
                 class="btn btn-primary text-base-100"
               >
-                View Project
+                View Projects
               </a>
             </div>
           </div>
