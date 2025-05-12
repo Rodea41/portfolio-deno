@@ -66,7 +66,76 @@ export default function Work() {
       </div>
 
       
-      
+
+  <div className="flex flex-wrap justify-between gap-4">
+    <div className="card bg-base-100 max-w-sm shadow-sm">
+      <figure>
+        <img
+          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+          alt="Shoes" />
+      </figure>
+      <div className="card-body">
+        <h2 className="card-title">Card Title</h2>
+        <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+        <div className="card-actions justify-end">
+          <button className="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  
+  <div className="card bg-base-100 max-w-sm shadow-sm">
+    <figure>
+      <img
+        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+        alt="Shoes" />
+    </figure>
+    <div className="card-body">
+      <h2 className="card-title">Card Title</h2>
+      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+      <div className="card-actions justify-end">
+        <button className="btn btn-primary">Buy Now</button>
+      </div>
+    </div>
+  </div>
+  
+  <div className="card bg-base-100 max-w-sm shadow-sm">
+    <figure>
+      <img
+        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+        alt="Shoes" />
+    </figure>
+    <div className="card-body">
+      <h2 className="card-title">Card Title</h2>
+      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+      <div className="card-actions justify-end">
+        <button className="btn btn-primary">Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <div className="card bg-base-100 max-w-sm shadow-sm">
+    <figure>
+      <img
+        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+        alt="Shoes" />
+    </figure>
+    <div className="card-body">
+      <h2 className="card-title">Card Title</h2>
+      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+      <div className="card-actions justify-end">
+        <button className="btn btn-primary">Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
       <div class="px-4 py-8 mx-auto">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
           
