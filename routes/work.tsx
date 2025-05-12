@@ -117,7 +117,7 @@ export default function Work() {
       <h2 className="card-title">Bakersfield Rate Increase</h2>
       <p>Sr. Area Director Chad Cox and the Bakersfield Ops team had asked me to meet at their facility to discuss the best way to approach their rate increases for 2025 </p>
       <div className="card-actions justify-end">
-        <a href="https://drive.google.com/drive/folders/1pOXydXHVtnrrzIqJqcfvwFSmA0O6xPvI?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://uscoldstorage-my.sharepoint.com/:x:/g/personal/crodea_uscold_com/EdKAebWMctZImMvw2JsQQM4BklOY9w-fYBfQkzH0SUM0zA?e=JNfwDc" target="_blank" rel="noopener noreferrer">
           <button className="btn btn-primary">Details</button>
           </a>
       </div>
